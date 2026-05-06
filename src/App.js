@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from "recharts";
 import { db } from "./firebase";
-import { collection, doc, setDoc, getDocs, addDoc, onSnapshot, query, orderBy } from "firebase/firestore";
+import { collection, doc, setDoc, getDocs, addDoc, query, orderBy } from "firebase/firestore";
 
 const COLAB_URL = "/api";
 const LOGO_URL = "https://i.imgur.com/Ps2cZAP.jpeg";
@@ -373,7 +373,8 @@ export default function App(){
 
   const [cities,setCities]=useState(DEFAULT_CITIES);
   const [places,setPlaces]=useState(DEFAULT_PLACES);
-  const [dbReady,setDbReady]=useState(false);
+// eslint-disable-next-line
+const [dbReady,setDbReady]=useState(false); // eslint-disable-line no-unused-vars
 
   const [loading,setLoading]=useState(false);
   const [lastResult,setLastResult]=useState(null);
