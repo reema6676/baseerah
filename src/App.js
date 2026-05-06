@@ -3,7 +3,7 @@ import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveCo
 import { db } from "./firebase";
 import { collection, doc, setDoc, getDocs, addDoc, query, orderBy } from "firebase/firestore";
 
-const COLAB_URL = "https://matchless-celibate-provolone.ngrok-free.app";
+const COLAB_URL = process.env.REACT_APP_API_URL || "https://matchless-celibate-provolone.ngrok-free.app";
 const LOGO_URL = "https://i.imgur.com/Ps2cZAP.jpeg";
 
 const CITY_IMAGES = {
