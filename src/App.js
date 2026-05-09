@@ -4,7 +4,7 @@ import { db } from "./firebase";
 import { collection, doc, setDoc, getDocs, addDoc, onSnapshot, query, orderBy } from "firebase/firestore";
 
 const COLAB_URL = "https://reema6676-baseerah-api.hf.space";
-const LOGO_URL = "https://i.imgur.com/Ps2cZAP.jpeg";
+const LOGO_URL = "https://i.imgur.com/Yu5kyn2.png";
 
 const CITY_IMAGES = {
   riyadh: "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?w=1200&q=90",
@@ -14,16 +14,16 @@ const CITY_IMAGES = {
 };
 
 const G = {
-  green:  "#16a34a",
-  greenD: "#14532d",
-  greenL: "#dcfce7",
-  greenM: "#86efac",
-  greenS: "#f0fdf4",
+  green:  "#7c3aed",
+  greenD: "#4c1d95",
+  greenL: "#ede9fe",
+  greenM: "#c4b5fd",
+  greenS: "#f5f3ff",
   white:  "#ffffff",
-  offW:   "#f8fafc",
-  text:   "#14532d",
-  sub:    "#166534",
-  border: "#bbf7d0",
+  offW:   "#faf9ff",
+  text:   "#4c1d95",
+  sub:    "#5b21b6",
+  border: "#ddd6fe",
   pos:    "#16a34a",
   neg:    "#dc2626",
   neu:    "#6b7280",
