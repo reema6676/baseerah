@@ -299,7 +299,7 @@ function HeroSlideshow({cities, lang, onSelectCity}){
             textTransform:"uppercase",marginBottom:12}}>
             {lang==="ar"?"المملكة العربية السعودية":"Kingdom of Saudi Arabia"}
           </div>
-          <h1 style={{fontSize:64,fontWeight:900,color:"#7c3aed",lineHeight:1,margin:0,
+          <h1 style={{fontSize:64,fontWeight:900,color:"#c4b5fd",lineHeight:1,margin:0,
             fontFamily:"Georgia, serif",textShadow:"0 4px 20px rgba(0,0,0,0.3)"}}>
             {lang==="ar"?"بصيرة":"Baseerah "}
           </h1>
