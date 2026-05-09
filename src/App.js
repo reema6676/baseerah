@@ -295,7 +295,7 @@ function HeroSlideshow({cities, lang, onSelectCity}){
 
         {/* اسم الموقع الكبير */}
         <div style={{marginBottom:8,animation:"fadeUp 0.8s ease 0.2s both"}}>
-          <div style={{fontSize:13,letterSpacing:6,color:G.greenL,fontWeight:700,
+          <div style={{fontSize:13,letterSpacing:1,color:G.greenL,fontWeight:700,
             textTransform:"uppercase",marginBottom:12}}>
             {lang==="ar"?"المملكة العربية السعودية":"Kingdom of Saudi Arabia"}
           </div>
@@ -534,7 +534,7 @@ export default function App(){
       <div style={{background:G.white,padding:"60px 36px"}}>
         <div style={{maxWidth:1100,margin:"0 auto"}}>
           <div style={{textAlign:"center",marginBottom:40}}>
-            <div style={{fontSize:12,letterSpacing:4,color:G.green,fontWeight:700,
+            <div style={{fontSize:12,letterSpacing:1,color:G.green,fontWeight:700,
               textTransform:"uppercase",marginBottom:8}}>
               {t("وجهاتنا السياحية","Our Destinations")}
             </div>
