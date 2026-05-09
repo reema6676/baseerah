@@ -295,15 +295,15 @@ function HeroSlideshow({cities, lang, onSelectCity}){
 
         {/* اسم الموقع الكبير */}
         <div style={{marginBottom:8,animation:"fadeUp 0.8s ease 0.2s both"}}>
-          <div style={{fontSize:13,letterSpacing:6,color:G.greenM,fontWeight:700,
+          <div style={{fontSize:13,letterSpacing:6,color:G.greenL,fontWeight:700,
             textTransform:"uppercase",marginBottom:12}}>
             {lang==="ar"?"المملكة العربية السعودية":"Kingdom of Saudi Arabia"}
           </div>
-          <h1 style={{fontSize:64,fontWeight:900,color:"#fff",lineHeight:1,margin:0,
+          <h1 style={{fontSize:64,fontWeight:900,color:"#7c3aed",lineHeight:1,margin:0,
             fontFamily:"Georgia, serif",textShadow:"0 4px 20px rgba(0,0,0,0.3)"}}>
             {lang==="ar"?"بصيرة":"Baseerah "}
           </h1>
-          <div style={{fontSize:22,color:G.greenM,fontWeight:700,marginTop:8,letterSpacing:2}}>
+          <div style={{fontSize:22,color:G.greenL,fontWeight:700,marginTop:8,letterSpacing:2}}>
             {lang==="ar"?"تحليل آراء السياح بالذكاء الاصطناعي":"AI-Powered Tourism Sentiment Analysis"}
           </div>
           <div style={{fontSize:16,color:"rgba(255,255,255,0.7)",marginTop:6,fontStyle:"italic"}}>
