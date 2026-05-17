@@ -119,7 +119,7 @@ function Header({onBack, title, lang, setLang, apiOk}){
         </div>
       </div>
       <div style={{display:"flex",alignItems:"center",gap:8}}>
-        {title&&!isMobile&&<span style={{color:G.sub,fontSize:13,fontWeight:700}}>{title}</span>}
+       
         <button onClick={()=>setLang(l=>l==="ar"?"en":"ar")} style={{
           background:G.greenL,border:`1px solid ${G.border}`,color:G.green,
           padding:"5px 12px",borderRadius:20,cursor:"pointer",fontSize:11,fontWeight:700}}>
