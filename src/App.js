@@ -268,11 +268,11 @@ function HeroSlideshow({cities, lang, onSelectCity}){
   const city = cities[current];
 
   return(
-    <div style={{position:"relative",height:"100vh",overflow:"hidden",background:G.greenD}}>
-      <div style={{position:"absolute",inset:0,transition:"opacity 0.6s ease",opacity:animating?0:1}}>
+    <div style={{position:"relative",height:"100vh",overflow:"hidden",background:"#000"}}>
+      <div style={{position:"absolute",inset:0,transition:"opacity 0.8s ease",opacity:animating?0:1}}>
         <img src={city.img} alt={city.ar}
           style={{width:"100%",height:"100%",objectFit:"cover",
-            transform:animating?"scale(1.05)":"scale(1)",transition:"transform 4s ease"}}
+            transition:"transform 4s ease",transform:animating?"scale(1.05)":"scale(1)"}}
           onError={e=>e.target.src=CITY_IMAGES.riyadh}/>
         <div style={{position:"absolute",inset:0,
           background:"linear-gradient(to bottom,rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.5) 60%,rgba(0,0,0,0.85) 100%)"}}/>
