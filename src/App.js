@@ -112,7 +112,7 @@ function Header({onBack, title, lang, setLang, apiOk}){
               boxShadow:`0 2px 8px ${G.greenM}60`}}/>
           <div>
             <div style={{fontSize:isMobile?13:15,alignItems:"center",fontWeight:800,color:G.text,lineHeight:1.2}}>
-          
+          {title&&!isMobile&&<span style={{color:G.sub,fontSize:13,fontWeight:700}}>{title}</span>}
             </div>
             {!isMobile && <StatusDot apiOk={apiOk} lang={lang}/>}
           </div>
