@@ -112,7 +112,7 @@ function Header({onBack, title, lang, setLang, apiOk}){
               boxShadow:`0 2px 8px ${G.greenM}60`}}/>
           <div>
             <div style={{fontSize:isMobile?13:15,fontWeight:800,color:G.text,lineHeight:1.2}}>
-              {lang==="ar"?"بصيرة":"Baseerah"}
+              {lang==="ar"?"":""}
             </div>
             {!isMobile && <StatusDot apiOk={apiOk} lang={lang}/>}
           </div>
