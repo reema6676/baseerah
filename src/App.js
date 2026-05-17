@@ -275,7 +275,7 @@ function HeroSlideshow({cities, lang, onSelectCity}){
             transform:animating?"scale(1.05)":"scale(1)",transition:"transform 4s ease"}}
           onError={e=>e.target.src=CITY_IMAGES.riyadh}/>
         <div style={{position:"absolute",inset:0,
-          background:"linear-gradient(to bottom,rgba(76,29,149,0.3) 0%,rgba(76,29,149,0.7) 60%,rgba(76,29,149,0.95) 100%)"}}/>
+          background:"linear-gradient(to bottom,rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.5) 60%,rgba(0,0,0,0.85) 100%)"}}/>
       </div>
 
       <div style={{position:"relative",zIndex:2,height:"100%",display:"flex",
@@ -517,7 +517,7 @@ export default function App(){
                       style={{width:"100%",height:"100%",objectFit:"cover"}}
                       onError={e=>e.target.src=CITY_IMAGES.riyadh}/>
                     <div style={{position:"absolute",bottom:0,left:0,right:0,
-                      background:"linear-gradient(to top,rgba(76,29,149,0.8),transparent)",
+                      background:"linear-gradient(to top,rgba(0,0,0,0.7),transparent)",
                       padding:"16px 12px 8px"}}>
                       <div style={{fontSize:isMobile?14:18,fontWeight:900,color:"#fff"}}>
                         {lang==="ar"?city.ar:city.en}
@@ -586,7 +586,7 @@ export default function App(){
             style={{width:"100%",height:"100%",objectFit:"cover"}}
             onError={e=>e.target.src=CITY_IMAGES.riyadh}/>
           <div style={{position:"absolute",inset:0,
-            background:"linear-gradient(to top,rgba(76,29,149,0.85),rgba(76,29,149,0.2))",
+            background:"linear-gradient(to top,rgba(0,0,0,0.7),rgba(0,0,0,0.1))",
             display:"flex",alignItems:"flex-end",padding:isMobile?"16px":"24px 36px"}}>
             <div>
               <h2 style={{fontSize:isMobile?22:34,fontWeight:900,color:"#fff",margin:0}}>
