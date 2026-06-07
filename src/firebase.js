@@ -2,12 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA9vde-w2vc34bLnspe4nmyp5Stc5bptjQ",
-  authDomain: "baseerah-2a80c.firebaseapp.com",
-  projectId: "baseerah-2a80c",
-  storageBucket: "baseerah-2a80c.firebasestorage.app",
-  messagingSenderId: "815161284287",
-  appId: "1:815161284287:web:1ad4ecbd8aa67eb1e2580a"
+  apiKey: "AIzaSyBbVXC13re0Qe9IiFZX_QTnot0_cmb7-GY",
+  authDomain: "baseerah-4f95d.firebaseapp.com",
+  projectId: "baseerah-4f95d",
+  storageBucket: "baseerah-4f95d.firebasestorage.app",
+  messagingSenderId: "595889604961",
+  appId: "1:595889604961:web:118e02913c80721fa5dd20",
+  measurementId: "G-8CND3RYLF7"
 };
 
 const app = initializeApp(firebaseConfig);
